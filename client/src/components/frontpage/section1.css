@@ -1,0 +1,103 @@
+.section1 {
+    /* width: 1440px; */
+    height: 663px;
+    background-color: #F2F0F1;
+    background-image: url(../../assert/cover1.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.display {
+    width: 50vw;
+    margin-left: 7vw;
+    padding-top: 60px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+}
+
+.display-about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.display-about-para {
+    color: rgba(0, 0, 0, 0.60);
+    /* leading-trim: both;
+    text-edge: cap; */
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.display-heading {
+    color: #000;
+    /* leading-trim: both;
+text-edge: cap; */
+    font-family: "Integral CF";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 100% */
+}
+
+p {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+button {
+    display: flex;
+    width: 210px;
+    height: 52px;
+    padding: 16px 54px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 62px;
+    background: #000;
+}
+
+.about-services {
+    display: flex;
+    gap: 20px;
+
+}
+
+.section2 {
+    background-color: #000;
+    height: 122px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.session-title {
+    color: #000;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: "Integral CF";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

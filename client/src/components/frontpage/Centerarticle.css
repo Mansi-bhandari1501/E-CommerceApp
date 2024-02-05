@@ -1,0 +1,100 @@
+.style-container {
+        background-color: #F0F0F0;
+        width: 65vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10vw;
+        margin-left: 12vw;
+        border-radius: 70px;
+        padding: 50px 30px 50px 30px;
+}
+.style-types{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+}
+.casual {
+        width: 320px;
+        height: 191px;
+        background-image: url(../../assert/image11.jpeg);
+        background-position: right center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        background-size: 336px;
+        color: #000;
+        padding-left: 15px;
+        padding-top: 15px;
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 20px;
+
+}
+
+.formal{
+        width: 430px;
+        height: 191px;
+        background-image: url(../../assert/image\ 13.jpg);
+        background-position: right center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        background-size: 492px;
+        color: #000;
+        padding-left: 15px;
+        padding-top: 15px;
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: 20px;
+
+}
+.party{
+        width: 430px;
+        height: 191px;
+        background-image: url(../../assert/image\ 12.jpg);
+        background-position: right center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        background-size: 492px;
+        color: #000;
+        padding-left: 15px;
+        padding-top: 15px;
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 20px;
+        margin-left: 20px;
+
+
+}
+.gym{
+        width:320px;
+        height: 191px;
+        background-image: url(../../assert/image\ 14.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        background-size: 336px;
+        color: #000;
+        padding-left: 15px;
+        padding-top: 15px;
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 10vh;
+
+}

@@ -1,0 +1,49 @@
+.cards-container{
+   width: auto;
+   height: 300px;
+
+}
+.Itemsss{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left:12vw ;
+    margin-bottom: 5vh;
+}
+/* .css-bhp9pd-MuiPaper-root-MuiCard-root{
+    
+}  */
+ .cards{
+    display: flex;
+    width: 200px;
+    height: 250px;
+    padding: 28px 32px;
+    align-items: flex-start;
+    align-content: center;
+    gap: 65px ;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0; 
+    flex-wrap: wrap;
+    border-radius: 20px;
+    /* border: 1px solid rgba(0, 0, 0, 0.10); */
+}  
+.product-img{
+    width: fit-content;
+    width: 150px;
+    height: 150px;
+}
+.item-url{
+    width: 209px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.product-name{
+    color: #000;
+font-family: Satoshi;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: lowercase;
+}

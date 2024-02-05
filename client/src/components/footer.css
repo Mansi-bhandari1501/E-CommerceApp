@@ -1,0 +1,181 @@
+.footer{
+    height: 0px;
+
+}
+.subscription {
+    position: absolute;
+    top: -91px;
+    display: flex;
+    width: 1000px;
+    padding: 36px 64px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #000;
+    /* margin-left: 232px; */
+    /* border: 2px solid red; */
+}
+
+.subs-left {
+    color: #FFF;
+    font-family: "Integral CF";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    /* 112.5% */
+}
+
+.subs-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    color: #FFF;
+    font-family: "Integral CF";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    /* 112.5% */
+}
+
+.email-logo {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 48px;
+    right: 420px;
+}
+
+.input-email {
+    display: flex;
+    width: 349px;
+    padding-top: 12px;
+    padding-right: 0px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    /* align-items: center;
+    /* padding: 12px 16px; */
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 62px;
+    background: #FFF;
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subs-btn {
+    display: flex;
+    width: 385px;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 62px;
+    background: #FFF;
+    color: #000;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.bottom {
+    height: 300px;
+    position: relative;
+    flex-shrink: 0;
+    background: #F0F0F0;
+    display: flex;
+    bottom: -450px;
+    justify-content: space-around;
+    /* align-items: flex-start; */
+    /* flex-direction: column; */
+}
+
+.context-container {
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 0px;
+    /* margin-left: 30px; */
+    /* padding-left: 30px; */
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    color: #000;
+    font-family: "Integral CF";
+    font-size: 33.455px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-para {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 157.143% */
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: flex-start;
+    /* align-items: flex-start;
+    gap: 26px; */
+}
+
+.Help {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.FAQ {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+.Resources {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+}
+
+li {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 118.75% */
+}
