@@ -72,7 +72,7 @@ button {
     font-weight: 500;
     line-height: normal;
     border-radius: 62px;
-    background: #000;
+    /* background: #000; */
 }
 
 .about-services {

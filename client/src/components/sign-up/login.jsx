@@ -131,7 +131,7 @@ import React,{useState} from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./signup.css";
 import axios from "axios";
-// import toast from "react-hot-toast";
+import toast from "react-hot-toast";
 import { NavLink } from "react-router-dom";
 import{useAuth} from '../../context/auth'
 
@@ -151,7 +151,7 @@ function Login() {
         password,
       });
       if (res && res.data.success) {
-        // toast.success(res.data && res.data.message);
+        toast.success(res.data && res.data.message);
         console.log(res.data && res.data.message);
         setAuth({
           ...auth,
@@ -161,12 +161,12 @@ function Login() {
         localStorage.setItem("auth", JSON.stringify(res.data));
         navigate(location.state || "/");
       } else {
-        // toast.error(res.data.message);
+        toast.error(res.data.message);
        console.log(res.data.message);
       }
     } catch (error) {
       console.log(error);
-      // toast.error("Something went wrong");
+      toast.error("Something went wrong");
     }
   };  return (
     <>

@@ -1,6 +1,6 @@
 import React from "react";
 // import ReactDOM from "react-dom";
-import "./section1.css";
+import style from "./section1.css";
 import Item from "./Item";
 import Centerarticle from "./centerarticle";
 import Reviews from "./reviews";
@@ -39,9 +39,9 @@ function Section1() {
               <p>Happy Customers</p>
             </div>
           </div>
-        </div>
+          </div>
       </div>
-      <div className="section2">
+      <div className={style.section2}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="167"
