@@ -7,7 +7,6 @@ import Footer from "./components/footer";
 import ErrorPage from "./components/ErrorPage"
 
 import { Routes,Route } from "react-router-dom";
-import Item from "./components/frontpage/Item";
 import Frontpage from "./components/frontpage/frontpage";
 import Dashboard from "./pages/users/UserDashboard";
 import PrivateRoute from "./components/Routes/Private";
@@ -41,10 +40,8 @@ function App() {
       <Route path="/forgot-password" element={<ForgotPasssword />} />
       <Route path='/loginpage' element={<Login />}/>
       <Route path='*' element={<ErrorPage />} />
-      <Route path='/item' element={<Item />}/>
 
      </Routes>
-     <Footer />
     </div>
   );
 }

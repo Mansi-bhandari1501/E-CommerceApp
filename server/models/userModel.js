@@ -19,17 +19,13 @@ phone:{
     type: Number,
     required: true,
 },
-address:{
-    type: String,
-    required: true,
-},
 answer: {
   type: String,
   required: true,
 },
 role:{
     type:Number,
-    default:0
+    default:1
 }
 },{timestamps:true})
 export default mongoose.model('users', userSchema)
